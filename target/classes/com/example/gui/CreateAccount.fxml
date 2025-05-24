@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CreateAccount_Pane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.CreateAccount_Controller">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHello" style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="↬ Back" />
+       <Pane fx:id="panediv" layoutX="458.0" layoutY="126.0" prefHeight="469.0" prefWidth="364.0" styleClass="pane-style">
+           <children>
+               <Label layoutX="126.0" layoutY="58.0" text="Sign Up">
+                   <font>
+                       <Font size="29.0" />
+                   </font>
+               </Label>
+               <TextField fx:id="usernameCreateID" layoutX="45.0" layoutY="174.0" promptText="username" styleClass="clicks" />
+               <PasswordField fx:id="passwordCreateID" layoutX="45.0" layoutY="225.0" promptText="password" styleClass="clicks" />
+               <ComboBox fx:id="typeCreateID" layoutX="45.0" layoutY="276.0" prefWidth="273" styleClass="clicks2" value="General">
+                   <items>
+                       <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="General" />
+                           <String fx:value="Formal" />
+                           <String fx:value="Instructor" />
+                       </FXCollections>
+                   </items>
+               </ComboBox>
+               <Button fx:id="signupID" layoutX="136.0" layoutY="362.0" mnemonicParsing="false" onAction="#switchToScreen1" styleClass="Bconfirm" text="Sign Up" />
+            <Label fx:id="errorCreate" layoutX="52.0" layoutY="331.0" style="-fx-text-fill: #b50000;" text="" />
+
+           </children>
+       </Pane>
+   </children>
+</AnchorPane>

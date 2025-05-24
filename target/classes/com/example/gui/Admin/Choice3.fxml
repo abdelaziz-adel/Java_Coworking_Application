@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="616.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.Admin.Choice3_Controller">
+
+    <Pane layoutX="1.0" prefHeight="48" prefWidth="160.8" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="General" />
+    </Pane>
+    <Pane layoutX="164.8" prefHeight="48" prefWidth="160.8" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Price" />
+    </Pane>
+    <Pane layoutX="328.6" prefHeight="48" prefWidth="160.8" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Meeting" />
+    </Pane>
+    <Pane layoutX="492.4" prefHeight="48" prefWidth="160.8" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Price" />
+    </Pane>
+    <Pane layoutX="656.2" prefHeight="48" prefWidth="160.8" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="teaching" />
+    </Pane>
+    <Pane layoutX="820.0" prefHeight="48" prefWidth="159" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Price  " />
+    </Pane>
+    <ScrollPane hbarPolicy="NEVER" layoutY="50" prefHeight="469.0" styleClass="scroll-pane" vbarPolicy="NEVER">
+        <AnchorPane>
+            <Pane minHeight="469.0" prefWidth="160.8" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data0" layoutX="9.0" layoutY="10.0" prefWidth="233.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="163.8" minHeight="469" prefWidth="160.8" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data1" layoutX="9.0" layoutY="10.0" prefWidth="233.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+
+            <Pane layoutX="327.6" minHeight="469" prefWidth="160.8" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data2" layoutX="9.0" layoutY="10.0" prefWidth="233.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="491.4" minHeight="469" prefWidth="160.8" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data3" layoutX="9.0" layoutY="10.0" prefWidth="239.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="655.2" minHeight="469" prefWidth="160.8" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data4" layoutX="9.0" layoutY="10.0" prefWidth="239.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="819.0" minHeight="469" prefWidth="159" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data5" layoutX="9.0" layoutY="10.0" prefWidth="239.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+        </AnchorPane>
+    </ScrollPane>
+    <Pane layoutX="324.6" minHeight="518" prefWidth="3.5" style="-fx-background-color: linear-gradient(to bottom, rgba(0, 0, 0, 0.44),transparent);" />
+    <Pane layoutX="652.2" minHeight="518" prefWidth="3.5" style="-fx-background-color: linear-gradient(to bottom, rgba(0, 0, 0, 0.44),transparent);" />
+    <Pane layoutX="1" layoutY="521.0" prefHeight="46" prefWidth="323.3" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label fx:id="total1" layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;"/>
+    </Pane>
+    <Pane layoutX="328.3" layoutY="521.0" prefHeight="46" prefWidth="323.3" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label fx:id="total2" layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;"/>
+    </Pane>
+    <Pane layoutX="655.6" layoutY="521.0" prefHeight="46" prefWidth="323.3" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label fx:id="total3" layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;"/>
+    </Pane>
+    <Pane layoutX="1" layoutY="570.0" prefHeight="46" prefWidth="979.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label fx:id="total" layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Total: " />
+    </Pane>
+</AnchorPane>

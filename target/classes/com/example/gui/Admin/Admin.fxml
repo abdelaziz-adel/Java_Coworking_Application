@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Admin_Pane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.Admin.Admin_Controller">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="33.0" prefHeight="45.0" prefWidth="1280.0"
+               text="Admin commands" textAlignment="CENTER">
+            <font>
+                <Font size="25.0"/>
+            </font>
+        </Label>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHello"
+                style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="↬ Home"/>
+        <Pane fx:id="pane0" layoutY="105.0" onMouseClicked="#goToChoice" prefHeight="85.29" prefWidth="300.0"
+              styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Display visitors data"
+                   textFill="#000000cd"/>
+        </Pane>
+        <Pane fx:id="pane1" layoutY="193.29" onMouseClicked="#goToChoice" prefHeight="85.29" prefWidth="300.0"
+              styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Display rooms data"
+                   textFill="#000000cd"/>
+        </Pane>
+        <Pane fx:id="pane2" layoutY="281.58" onMouseClicked="#goToChoice" prefHeight="85.29" prefWidth="300.0" styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Display available slots"
+                   textFill="#000000cd"/>
+        </Pane>
+        <Pane fx:id="pane3" layoutY="369.87" onMouseClicked="#goToChoice" prefHeight="85.29" prefWidth="300.0" styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Display total money"
+                   textFill="#000000cd"/>
+        </Pane>
+        <Pane fx:id="pane4" layoutY="458.16" onMouseClicked="#goToChoice" prefHeight="85.29" prefWidth="300.0" styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Delete entity"
+                   textFill="#000000cd"/>
+        </Pane>
+        <Pane fx:id="pane5" layoutY="546.45" onMouseClicked="#goToChoice" prefHeight="85.29" prefWidth="300.0" styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Add slots"
+                   textFill="#000000cd"/>
+        </Pane>
+        <Pane fx:id="pane6" layoutY="634.74" onMouseClicked="#goToChoice" prefHeight="85" prefWidth="300.0" styleClass="adminPane">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="32.0" text="Log"
+                   textFill="#000000cd"/>
+        </Pane>
+        <AnchorPane fx:id="Choice_Pane" layoutX="300.0" layoutY="104.0" prefHeight="616.0" prefWidth="980.0"/>
+
+    </children>
+</AnchorPane>

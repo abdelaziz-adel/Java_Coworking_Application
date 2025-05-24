@@ -1,0 +1,172 @@
+* {
+    -fx-text-fill: #121212;
+    -fx-font-family: "Sora";
+    -fx-font-smoothing-type: gray;
+}
+
+.pane-style {
+    -fx-background-color: rgba(255, 255, 255, 0.35);
+    -fx-background-radius: 20;
+}
+
+.Spane-style {
+    -fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.35),rgba(255, 255, 255, 0.06));
+    -fx-background-radius: 20;
+    -fx-text-align: center;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+.Spane-style:hover {
+    -fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.262),rgba(255, 255, 255, 0.06));
+    -fx-cursor: hand;
+}
+
+.image-container {
+    -fx-opacity: 0.7;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 8, 0, 0, 0);
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 47px;
+}
+.image-container:hover{
+    -fx-cursor: hand;
+}
+
+.image-style:hover {
+    -fx-opacity: 0.85;
+    -fx-cursor: hand;
+}
+
+.scroll-pane {
+   -fx-background-color:transparent;
+}
+.scroll-pane .viewport {
+       -fx-background-color: transparent;
+}
+
+
+.clicks {
+    -fx-padding: 10px 30px;
+    -fx-background-radius: 50px;
+    -fx-text-align: center;
+    -fx-opacity: 0.8;
+    -fx-font-size: 17;
+    -fx-highlight-fill: rgba(0, 0, 0, 0.66);
+}
+.clicks:focused {
+    -fx-focus-color: rgba(0, 0, 0, 0.355);
+    -fx-faint-focus-color: rgba(0, 0, 0, 0.09);
+}
+
+.clicks2 {
+    -fx-font-size: 15;
+    -fx-padding: 6px 20px;
+    -fx-background-radius: 50px;
+    -fx-text-align: center;
+    -fx-opacity: 0.8;
+    -fx-highlight-fill: rgba(0, 0, 0, 0.66);
+}
+.clicks2:focused {
+    -fx-focus-color: rgba(0, 0, 0, 0.355);
+    -fx-faint-focus-color: rgba(0, 0, 0, 0.09);
+}
+
+.date-picker {
+    -fx-background-color: rgba(0, 0, 0, 0.35);
+    -fx-text-fill: white;
+    -fx-border-color: rgba(0, 0, 0, 0);
+    -fx-border-width: 0;
+    -fx-font-size: 17px;
+}
+
+.date-picker:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.2);
+    -fx-cursor: hand;
+}
+
+.date-picker .text-field {
+    -fx-background-color: rgba(0, 0, 0, 0.35);
+    -fx-text-fill: white;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: rgba(0, 0, 0, 0.35);
+    -fx-border-color: rgba(0, 0, 0, 0);
+    -fx-border-width: 0;
+}
+
+.date-picker-popup {
+    -fx-background-color: rgba(0, 0, 0, 0.35);
+    -fx-text-fill: white;
+    -fx-border-color: -color0;
+    -fx-border-width: 0;
+    -fx-accent: -color0;
+    -fx-font-size: 13px;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.18);
+    -fx-text-fill: #000000;
+}
+.combo-box-popup .list-cell:filled:selected, .combo-box-popup .list-cell:selected {
+    -fx-background-color: -color0;
+    -fx-text-fill: #ffffff;
+}
+
+.Bconfirm{
+    -fx-text-align: center;
+    -fx-padding: 7px 23px;
+    -fx-font-size: 13;
+    -fx-opacity: 0.9;
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+    -fx-text-fill: white;
+}
+.Bconfirm:focused {
+    -fx-focus-color: rgba(0, 0, 0, 0.355);
+    -fx-faint-focus-color: rgba(0, 0, 0, 0.09);
+}
+.Bconfirm:hover{
+    -fx-background-color: rgba(0, 0, 0, 0.45);
+    -fx-cursor: hand;
+}
+
+.Bupdate{
+    -fx-font-size: 12;
+    -fx-background-radius: 1px;
+    -fx-background-color: -color0;
+    -fx-text-fill: white;
+}
+.Bupdate:hover{
+    -fx-background-color: -color0_2;
+    -fx-cursor: hand;
+}
+
+.Bupdate2{
+    -fx-font-size: 13;
+    -fx-background-radius: 1px;
+    -fx-background-color: transparent;
+}
+.Bupdate2:hover{
+    -fx-background-color: rgba(200, 1, 10, 0.8);
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+}
+
+#CreateAccB{
+    -fx-text-fill: -color0;
+}
+#CreateAccB:hover{
+    -fx-text-fill: -color0_2;
+    -fx-cursor: hand;
+    -fx-underline: true;
+}
+
+.adminPane {
+    -fx-background-color: linear-gradient(to right, rgba(255, 255, 255, 0.35),transparent);
+    -fx-font-size: 17;
+}
+.adminPane:hover {
+    -fx-background-color: linear-gradient(to right, rgba(255, 255, 255, 0.17),transparent);
+    -fx-cursor: hand;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane fx:id="Slots_Pane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.Slots_Controller">
+    <children>
+        <Label fx:id="AvSlots" alignment="CENTER" contentDisplay="CENTER" layoutY="60.0" prefHeight="32.0" prefWidth="1280.0" text="Available Slots in ">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHello" style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="↬ back" />
+        <Pane fx:id="pane01" layoutX="347.0" layoutY="143.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot01" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="10AM : 11AM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane02" layoutX="497.0" layoutY="143.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot02" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="11AM : 12PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane03" layoutX="647.0" layoutY="143.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot03" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="12PM : 01PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane04" layoutX="797.0" layoutY="143.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot04" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="01PM : 02PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+
+        <Pane fx:id="pane05" layoutX="347.0" layoutY="293.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot05" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="02PM : 03PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane06" layoutX="497.0" layoutY="293.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot06" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="03PM : 04PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane07" layoutX="647.0" layoutY="293.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot07" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="04PM : 05PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane08" layoutX="797.0" layoutY="293.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot08" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="05PM : 06PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+
+        <Pane fx:id="pane09" layoutX="347.0" layoutY="443.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot09" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="06PM : 07PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane10" layoutX="497.0" layoutY="443.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot10" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="07PM : 08PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane11" layoutX="647.0" layoutY="443.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot11" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="08PM : 09PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+        <Pane fx:id="pane12" layoutX="797.0" layoutY="443.0" prefHeight="135.0" prefWidth="135.0" styleClass="Spane-style">
+            <Label fx:id="slot12" alignment="CENTER" onMouseClicked="#goToCheck" prefHeight="135.0" prefWidth="135.0" text="09PM : 10PM" textAlignment="CENTER">
+            </Label>
+        </Pane>
+    </children>
+</AnchorPane>

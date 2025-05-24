@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="GeneralRoom1_Pane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.Room_Controller">
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToGeneral" style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="↬ Exit" />
+    <Label fx:id="label01" layoutX="83.0" layoutY="14.0" text="General">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+    <Label fx:id="Room1ID" layoutX="1071.0" layoutY="14.0" text="test">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <Pane fx:id="PaneG1" layoutX="358.0" layoutY="178.0" prefHeight="364.0" prefWidth="564.0" style="-fx-background-color: rgba(0, 0, 0, 0.25);" styleClass="pane-style">
+        <children>
+            <Label fx:id="usernameLabel" layoutX="16.0" layoutY="24.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" text="Name" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="dateLabel" layoutX="16.0" layoutY="64.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" text="Name" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="timeLabel" layoutX="16.0" layoutY="104.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" text="Name" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="ratingLabel" layoutX="16.0" layoutY="174.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" text="Name" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="seconds" layoutX="16.0" layoutY="214.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" text="Hourly Rate: 0.00$" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="slotLabel" layoutX="16.0" layoutY="254.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" text="Name" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="liveLabel" layoutX="184.0" layoutY="307.0" style="-fx-text-fill: #FF4040;" text="• LIVE                      •" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="liveTimeLabel" layoutX="254.0" layoutY="307.0" style="-fx-text-fill: #FF4040;" text="00:00:00" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="Label1" layoutX="310.0" layoutY="62.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <Label fx:id="Label2" layoutX="310.0" layoutY="102.0" style="-fx-text-fill: rgba(255, 255, 255, 0.67);" textAlignment="CENTER">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+        </children>
+    </Pane>
+</AnchorPane>

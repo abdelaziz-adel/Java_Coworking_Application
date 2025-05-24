@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane  prefHeight="616.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.Admin.Choice1_Controller">
+
+    <Pane layoutX="1.0" prefHeight="48" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Name" />
+    </Pane>
+    <Pane layoutX="246.0" prefHeight="48" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Rating" />
+    </Pane>
+    <Pane layoutX="491.0" prefHeight="48" prefWidth="242.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="ID" />
+    </Pane>
+    <Pane layoutX="736.0" prefHeight="48" prefWidth="243.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Number of visitors" />
+    </Pane>
+
+    <ScrollPane layoutY="50" prefHeight="518.0" styleClass="scroll-pane" hbarPolicy="NEVER" vbarPolicy="NEVER">
+        <AnchorPane>
+            <Pane minHeight="518.0" prefWidth="242.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data0" layoutX="9.0" layoutY="10.0" prefWidth="233.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="245.0" minHeight="518" prefWidth="242.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data1" layoutX="9.0" layoutY="10.0" prefWidth="233.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="490.0" minHeight="518" prefWidth="242.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data2" layoutX="9.0" layoutY="10.0" prefWidth="233.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+            <Pane layoutX="735.0" minHeight="518" prefWidth="243.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2),transparent);">
+                <Label fx:id="data3" layoutX="9.0" layoutY="10.0" prefWidth="239.0" style="-fx-font-size: 17;" text="Username" />
+            </Pane>
+        </AnchorPane>
+    </ScrollPane>
+    <Pane layoutX="1" layoutY="570.0" prefHeight="46" prefWidth="979.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Total: 7" />
+    </Pane>
+</AnchorPane>

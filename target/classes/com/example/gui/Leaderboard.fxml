@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="LeaderPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.Leaderboard_Controller">
+
+    <Pane layoutY="28.0" prefHeight="76.0" prefWidth="1280.0" style="-fx-padding: 7px 13px;">
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="13.0" prefHeight="49.0" prefWidth="1280.0" text="Leaderboard" textAlignment="CENTER">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Label>
+    </Pane>
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToWelcome" style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="↬ Back" />
+    <!-- Column headers -->
+    <Pane layoutX="1.0" layoutY="104.0" prefHeight="48" prefWidth="424.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Username" />
+    </Pane>
+    <Pane layoutX="428.0" layoutY="104.0" prefHeight="48" prefWidth="424.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="ID" />
+    </Pane>
+    <Pane layoutX="855.0" layoutY="104.0" prefHeight="48" prefWidth="424.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Total Hours" />
+    </Pane>
+
+    <!-- ScrollPane to display the content dynamically -->
+    <ScrollPane hbarPolicy="NEVER" layoutY="154.0" prefHeight="518.0" styleClass="scroll-pane" vbarPolicy="NEVER">
+        <AnchorPane>
+            <!-- Rows will be added dynamically here -->
+            <Pane layoutX="0" minHeight="518.0" prefWidth="424.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);">
+                <Label fx:id="data0" layoutX="9.0" layoutY="10.0" prefWidth="317.0" style="-fx-font-size: 17;"/>
+            </Pane>
+            <Pane layoutX="427.0" minHeight="518" prefWidth="424.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);">
+                <Label fx:id="data1" layoutX="9.0" layoutY="10.0" prefWidth="317.0" style="-fx-font-size: 17;"/>
+            </Pane>
+            <Pane layoutX="854.0" minHeight="518" prefWidth="424.0" style="-fx-background-color: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);">
+                <Label fx:id="data2" layoutX="9.0" layoutY="10.0" prefWidth="317.0" style="-fx-font-size: 17;"/>
+            </Pane>
+        </AnchorPane>
+    </ScrollPane>
+
+    <!-- Footer displaying total number of users -->
+    <Pane layoutX="1.0" layoutY="674.0" prefHeight="46" prefWidth="1280.0" style="-fx-background-color: rgba(255, 255, 255, 0.2);">
+        <Label fx:id="total" layoutX="9.0" layoutY="11.0" style="-fx-font-size: 17;" text="Total: " />
+    </Pane>
+
+</AnchorPane>

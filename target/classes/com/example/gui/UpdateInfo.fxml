@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="updateInfoPane" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JasonOOP.Controllers.UpdateInfo_Controller">
+
+    <AnchorPane prefHeight="720.0" prefWidth="1281.0">
+        <TextField layoutX="-310.0" layoutY="-31.0" prefWidth="0"/>
+
+        <Pane layoutY="62.0" prefHeight="76.0" prefWidth="1280.0" style="-fx-padding: 7px 13px;">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-6.0" prefHeight="49.0" prefWidth="1280.0" text="Update User Info" textAlignment="CENTER">
+                <font>
+                    <Font size="27.0" />
+                </font>
+            </Label>
+        </Pane>
+
+        <Pane layoutX="1.0" layoutY="150.0" prefHeight="100.0" prefWidth="1280.0" style="-fx-background-color: rgba(255, 255, 255, 0.1);">
+            <Label layoutX="45.0" layoutY="36.0" style="-fx-font-size: 17;" text="Enter New Username:" />
+            <TextField fx:id="usernameField" layoutX="310.0" layoutY="31.0" prefWidth="600.0" style="-fx-font-size: 17; -fx-background-color: rgba(255, 255, 255, 0.7);" />
+        </Pane>
+
+        <Pane layoutX="1.0" layoutY="270.0" prefHeight="100.0" prefWidth="1280.0" style="-fx-background-color: rgba(255, 255, 255, 0.1);">
+            <Label layoutX="45.0" layoutY="36.0" style="-fx-font-size: 17;" text="Enter New Password:" />
+            <TextField fx:id="passwordField" layoutX="310.0" layoutY="31.0" prefWidth="600.0" style="-fx-font-size: 17; -fx-background-color: rgba(255, 255, 255, 0.7);" />
+        </Pane>
+
+        <Button layoutX="1199.0" layoutY="14.0" mnemonicParsing="false" onAction="#saveUpdatedInfo" style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="Save ↫" />
+
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToHello" style="-fx-padding: 7px 13px;" styleClass="Bconfirm" text="↬ Home" />
+    </AnchorPane>
+
+</AnchorPane>
