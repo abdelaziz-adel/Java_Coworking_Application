@@ -8,7 +8,7 @@ Built with **Java** and **Object-Oriented Programming**, this project brings rea
 ## 🎥 Demo
 
 See JSON in action — from account creation and booking rooms to managing user data and using admin tools.  
-👉 [Watch the demo on LinkedIn](https://www.linkedin.com/posts/abdelazizadel_introducing-whats-wrong-a-custom-built-activity-7331397057112444929-TxrB?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADaCgBMBzV7FlkRFVyTib3IPTd5a6hxzLkA)
+👉 [Watch the demo on LinkedIn](https://www.linkedin.com/posts/abdelazizadel_java-oop-desktopapp-activity-7340931457038581762-KlLQ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADaCgBMBzV7FlkRFVyTib3IPTd5a6hxzLkA)
 
 ---
 
